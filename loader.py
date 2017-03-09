@@ -93,6 +93,8 @@ class MLBLoader(object):
             csv_name = 'franchises'
         elif csv_name == 'halloffame':
             csv_name = 'hof'
+        elif csv_name == 'master':
+            csv_name = 'players'
 
         collections = self.db_client[csv_name]
         logger.info('Loading %s data to DB', csv_name)
