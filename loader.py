@@ -21,7 +21,7 @@ URLS = {'2015': 'http://seanlahman.com/files/database/baseballdatabank-master_20
         '2013': 'http://seanlahman.com/files/database/lahman-csv_2014-02-14.zip',
         '2012': 'http://seanlahman.com/files/database/lahman2012-csv.zip',
         '2011': 'http://seanlahman.com/files/database/lahman591-csv.zip',
-        '2010': 'http://seanlahman.com/files/database/lahman58-csv.zip'
+        '2010': 'http://seanlahman.com/files/database/lahman30-csv.zip'
         }
 
 

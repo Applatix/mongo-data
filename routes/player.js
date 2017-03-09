@@ -41,7 +41,7 @@ function PlayerHandler(cfg, db) {
                         if (err) {
                             return next(err);
                         }
-                        // console.log('playerProfileAppend: result ->', result);
+                        console.log('playerProfileAppend: result ->', result);
                         player.LAST_POS = result[0].POS;
                         res.setHeader('Cache-Control', 'public, max-age=' + cfg.maxAgeD);
                         return res.send(player);
@@ -60,7 +60,8 @@ function PlayerHandler(cfg, db) {
 
         var search_arr = [],
             query,
-            players = db.collection('master');
+            //players = db.collection('master');
+            players = db.collection('players');
 
         search_arr = req.query['search'].split(' ');
         query = { "nameFirst": search_arr[0], "nameLast": search_arr[1] };
