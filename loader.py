@@ -16,12 +16,13 @@ MLBDB = 'MLB'
 logger = logging.getLogger(__name__)
 
 
-URLS = {'2015': 'http://seanlahman.com/files/database/baseballdatabank-master_2016-03-02.zip',
-        '2014': 'http://seanlahman.com/files/database/lahman-csv_2015-01-24.zip',
-        '2013': 'http://seanlahman.com/files/database/lahman-csv_2014-02-14.zip',
-        '2012': 'http://seanlahman.com/files/database/lahman2012-csv.zip',
-        '2011': 'http://seanlahman.com/files/database/lahman591-csv.zip',
-        '2010': 'http://seanlahman.com/files/database/lahman30-csv.zip'
+URLS = {'2016': 'https://s3-us-west-1.amazonaws.com/ax-public/mlb-db/baseballdatabank-2017.1.zip',
+        '2015': 'https://s3-us-west-1.amazonaws.com/ax-public/mlb-db/baseballdatabank-master2016.zip',
+        '2014': 'https://s3-us-west-1.amazonaws.com/ax-public/mlb-db/lahman-csv_2014-02-14.zip',
+        '2013': 'https://s3-us-west-1.amazonaws.com/ax-public/mlb-db/lahman-csv_2015-01-24.zip',
+        '2012': 'https://s3-us-west-1.amazonaws.com/ax-public/mlb-db/lahman2012-csv.zip',
+        '2011': 'https://s3-us-west-1.amazonaws.com/ax-public/mlb-db/lahman591-csv.zip',
+        '2010': 'https://s3-us-west-1.amazonaws.com/ax-public/mlb-db/lahman58-csv.zip'
         }
 
 
