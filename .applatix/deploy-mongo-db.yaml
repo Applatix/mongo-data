@@ -133,7 +133,7 @@ inputs:
     repo:
       default: "%%session.repo%%"
     year:
-      default: 2015
+      default: 2016
 steps:
   - checkout:
       template: axscm-checkout
