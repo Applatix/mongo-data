@@ -122,8 +122,8 @@ containers:
 ---
 type: service_template
 subtype: workflow
-name: Deploy MLB
-description: This is the workflow to load MLB application on Applatix
+name: Deploy MongoDB
+description: This is the workflow to load MLB application on MongoDB
 inputs:
   parameters:
     commit:
