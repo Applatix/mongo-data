@@ -20,7 +20,7 @@ inputs:
 ---
 type: service_template
 subtype: container
-name: deploy-mongodb
+name: mongodb
 description: MongoDB container
 container:
   image: "mongo:3.2.9"
